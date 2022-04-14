@@ -1,0 +1,11 @@
+@use 'global';
+
+body {
+  background-color: global.$backgrd_color;
+  margin: 0;
+  font-family:'Roboto';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
