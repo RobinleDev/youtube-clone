@@ -78,9 +78,7 @@ $heigth_bar: 4vh;
         all:unset;
         @include button();
         width:3vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include global.center_div();
         border-width: 1px;
         border-color: global.$ligther_color;
         border-style: solid;
@@ -96,15 +94,14 @@ $heigth_bar: 4vh;
         
         width:25vw;
         height: $heigth_bar;
-
         background-color: global.$darker_color;
         border-width: 1px;
         border-color: global.$ligther_color;
         border-style: solid;
-        align-items: center;
+        display: flex;
+        justify-content: left;
         input{
             all:unset;
-            padding-top: 0.7em;
             padding-left: 1em;
             color:#fff;
             font-family: 'Roboto', sans-serif;
@@ -117,9 +114,7 @@ $heigth_bar: 4vh;
         width:2vw;
         border-radius: 30px;
         margin-left: 1em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include global.center_div()
         
     }
     

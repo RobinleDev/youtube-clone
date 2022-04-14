@@ -4,3 +4,9 @@ $ligther_color: #383838;
 $darker_color:#121212;
 $font_color: #ffff;
 $button_color:#323232;
+
+@mixin center_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

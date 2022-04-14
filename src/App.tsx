@@ -1,4 +1,5 @@
 import Header from './header';
+import Navbar from './Navbar';
 
 import './style/App.scss'
 
@@ -6,7 +7,10 @@ function App() {
   
   return (
     <div className="App">
-      <Header/>
+      <div className="top">
+        <Header/>
+        <Navbar/>
+      </div>
     </div>
   )
 }

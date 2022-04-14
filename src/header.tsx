@@ -5,7 +5,6 @@ import notification from './img/notification.svg';
 import pp from './img/profilePicture.jpeg';
 import search from './img/search.svg';
 import mic from './img/mic.svg'
-import menu from './img/menu.svg';
 
 import './style/header.scss';
 
