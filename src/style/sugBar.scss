@@ -1,0 +1,11 @@
+@use 'global';
+
+.SugBar{
+    display: flex;
+    width: 96vw;
+    height: 5vh;
+    position: relative;
+    left: 4vw;
+    overflow: hidden;
+    background-color: global.$foregrd_color;
+}
