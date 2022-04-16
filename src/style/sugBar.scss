@@ -2,10 +2,10 @@
 
 .SugBar{
     display: flex;
+    left: 4vw;
     width: 96vw;
     height: 5vh;
     position: relative;
-    left: 4vw;
     overflow: hidden;
     background-color: global.$foregrd_color;
 }
